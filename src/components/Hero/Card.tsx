@@ -57,7 +57,7 @@ export const Card = ({ timeline }: { timeline: gsap.core.Timeline | null }) => {
       duration: 0.5,
       ease: "back.out(2)" // Bounces off the impact
     }, "tilt");
-    
+
     timeline.to(cardRef.current.rotation, {
       x: Math.PI / 2.5, // Flattening out to slide in
       y: 0,
@@ -68,12 +68,12 @@ export const Card = ({ timeline }: { timeline: gsap.core.Timeline | null }) => {
     // 3. The Sit: Card flies and sits perfectly into the geometric logo
     timeline.to(cardRef.current.position, {
       x: walletX,
-      y: walletY, 
-      z: walletZ, 
+      y: walletY,
+      z: walletZ,
       duration: 0.5,
       ease: "power4.out" // Smooth settling motion
     }, "sit");
-    
+
     // As it settles inside, it scales down to disappear into the logo depth
     timeline.to(cardRef.current.scale, {
       x: 0.4,
@@ -88,15 +88,15 @@ export const Card = ({ timeline }: { timeline: gsap.core.Timeline | null }) => {
       duration: 0.05,
     }, "sit+=0.45");
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [timeline]); // Only rebuild if timeline object changes, keeping it stable while user interacts with initial Start origin sliders
 
   return (
     <group ref={cardRef} position={[startX, startY, startZ]} rotation={[rotX, rotY, rotZ]} scale={[initScale, initScale, initScale]}>
       {/* Fallback geometric card since we don't have the explicit user GLB */}
       <mesh castShadow receiveShadow>
-        <boxGeometry args={[3.37, 2.12, 0.05]} /> 
-        <meshPhysicalMaterial 
+        <boxGeometry args={[3.37, 2.12, 0.05]} />
+        <meshPhysicalMaterial
           color="#1a1a1a"
           metalness={0.9}
           roughness={0.1}
@@ -104,7 +104,7 @@ export const Card = ({ timeline }: { timeline: gsap.core.Timeline | null }) => {
           clearcoatRoughness={0.1}
         />
       </mesh>
-      
+
       {/* Glowing Chip Indicator */}
       <mesh position={[-1.2, 0, 0.03]}>
         <boxGeometry args={[0.5, 0.4, 0.02]} />
