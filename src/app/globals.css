@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #050505;
+    --foreground: #f8f8f8;
+    
+    --primary: #7000ff;
+    --primary-foreground: #ffffff;
+    
+    --muted: #1f1f1f;
+    --muted-foreground: #a3a3a3;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary selection:text-white;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    overflow-x: hidden;
+  }
+}
+
+/* Hide scrollbar for clean luxury look */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/5 backdrop-blur-md border border-white/10;
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 20px rgba(112, 0, 255, 0.5);
+  }
+  
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-br from-white via-zinc-300 to-zinc-600;
+  }
+}
+
+/* Site Content initially hidden, GSAP will manually animate it in */
+.site-content {
+  opacity: 0;
+  pointer-events: none;
+  transition: pointer-events 0.1s linear 1.5s;
+}
+
+.site-content.active {
+  pointer-events: auto;
+}

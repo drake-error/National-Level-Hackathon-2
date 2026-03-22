@@ -1,0 +1,320 @@
+﻿
+> web@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+
+   Creating an optimized production build ...
+node.exe : <w> [webpack
+.cache.PackFileCacheStr
+ategy] Skipped not 
+serializable cache 
+item 'Compilation/modul
+es|C:\Users\Darwin\OneD
+rive\Desktop\KSSEM-PRES
+ENT\web\node_modules\ne
+xt\dist\build\webpack\l
+oaders\css-loader\src\i
+ndex.js??ruleSet[1].rul
+es[14].oneOf[12].use[2]
+!C:\Users\Darwin\OneDri
+ve\Desktop\KSSEM-PRESEN
+T\web\node_modules\next
+\dist\build\webpack\loa
+ders\postcss-loader\src
+\index.js??ruleSet[1].r
+ules[14].oneOf[12].use[
+3]!C:\Users\Darwin\OneD
+rive\Desktop\KSSEM-PRES
+ENT\web\src\app\globals
+.css': No serializer 
+registered for 
+PostCSSSyntaxError
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (<w> [webpack.   
+ ca...tCSSSyntaxErr    
+or:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+<w> while serializing w
+ebpack/lib/cache/PackFi
+leCacheStrategy.PackCon
+tentItems -> webpack/li
+b/NormalModule -> webpa
+ck/lib/ModuleBuildError
+ -> PostCSSSyntaxError
+Failed to compile.
+
+./src/app/globals.css:1
+:1
+Syntax error: C:\Users\
+Darwin\OneDrive\Desktop
+\KSSEM-PRESENT\web\src\
+app\globals.css The 
+`selection:bg-primary` 
+class does not exist. 
+If 
+`selection:bg-primary` 
+is a custom class, 
+make sure it is 
+defined within a 
+`@layer` directive.
+
+[1m[31m>[39m[22m[9
+0m 1 | [39m[36m@tailw
+ind[39m 
+base[33m;[39m
+ [90m   | [39m[1m[3
+1m^[39m[22m
+ [90m 2 | [39m[36m@t
+ailwind[39m 
+components[33m;[39m
+ [90m 3 | [39m[36m@t
+ailwind[39m 
+utilities[33m;[39m
+
+./src/app/globals.css
+Syntax error: C:\Users\
+Darwin\OneDrive\Desktop
+\KSSEM-PRESENT\web\src\
+app\globals.css The 
+`selection:bg-primary` 
+class does not exist. 
+If 
+`selection:bg-primary` 
+is a custom class, 
+make sure it is 
+defined within a 
+`@layer` directive. 
+(1:1)
+
+[1m[31m>[39m[22m[9
+0m 1 | [39m[36m@tailw
+ind[39m 
+base[33m;[39m
+ [90m   | [39m[1m[3
+1m^[39m[22m
+ [90m 2 | [39m[36m@t
+ailwind[39m 
+components[33m;[39m
+ [90m 3 | [39m[36m@t
+ailwind[39m 
+utilities[33m;[39m
+
+    at 
+tryRunOrWebpackError (C
+:\Users\Darwin\OneDrive
+\Desktop\KSSEM-PRESENT\
+web\node_modules\next\d
+ist\compiled\webpack\bu
+ndle5.js:28:312989)
+    at __webpack_requir
+e_module__ (C:\Users\Da
+rwin\OneDrive\Desktop\K
+SSEM-PRESENT\web\node_m
+odules\next\dist\compil
+ed\webpack\bundle5.js:2
+8:131165)
+    at __nested_webpack
+_require_153728__ (C:\U
+sers\Darwin\OneDrive\De
+sktop\KSSEM-PRESENT\web
+\node_modules\next\dist
+\compiled\webpack\bundl
+e5.js:28:130607)
+    at C:\Users\Darwin\
+OneDrive\Desktop\KSSEM-
+PRESENT\web\node_module
+s\next\dist\compiled\we
+bpack\bundle5.js:28:131
+454
+    at symbolIterator (
+C:\Users\Darwin\OneDriv
+e\Desktop\KSSEM-PRESENT
+\web\node_modules\next\
+dist\compiled\neo-async
+\async.js:1:14444)
+    at done (C:\Users\D
+arwin\OneDrive\Desktop\
+KSSEM-PRESENT\web\node_
+modules\next\dist\compi
+led\neo-async\async.js:
+1:14824)
+    at Hook.eval [as 
+callAsync] (eval at 
+create (C:\Users\Darwin
+\OneDrive\Desktop\KSSEM
+-PRESENT\web\node_modul
+es\next\dist\compiled\w
+ebpack\bundle5.js:13:28
+858), <anonymous>:15:1)
+    at Hook.CALL_ASYNC_
+DELEGATE [as 
+_callAsync] (C:\Users\D
+arwin\OneDrive\Desktop\
+KSSEM-PRESENT\web\node_
+modules\next\dist\compi
+led\webpack\bundle5.js:
+13:26012)
+    at C:\Users\Darwin\
+OneDrive\Desktop\KSSEM-
+PRESENT\web\node_module
+s\next\dist\compiled\we
+bpack\bundle5.js:28:130
+328
+    at symbolIterator (
+C:\Users\Darwin\OneDriv
+e\Desktop\KSSEM-PRESENT
+\web\node_modules\next\
+dist\compiled\neo-async
+\async.js:1:14402)
+-- inner error --
+Syntax error: C:\Users\
+Darwin\OneDrive\Desktop
+\KSSEM-PRESENT\web\src\
+app\globals.css The 
+`selection:bg-primary` 
+class does not exist. 
+If 
+`selection:bg-primary` 
+is a custom class, 
+make sure it is 
+defined within a 
+`@layer` directive. 
+(1:1)
+
+[1m[31m>[39m[22m[9
+0m 1 | [39m[36m@tailw
+ind[39m 
+base[33m;[39m
+ [90m   | [39m[1m[3
+1m^[39m[22m
+ [90m 2 | [39m[36m@t
+ailwind[39m 
+components[33m;[39m
+ [90m 3 | [39m[36m@t
+ailwind[39m 
+utilities[33m;[39m
+
+    at 
+Object.<anonymous> (C:\
+Users\Darwin\OneDrive\D
+esktop\KSSEM-PRESENT\we
+b\node_modules\next\dis
+t\build\webpack\loaders
+\css-loader\src\index.j
+s??ruleSet[1].rules[14]
+.oneOf[12].use[2]!C:\Us
+ers\Darwin\OneDrive\Des
+ktop\KSSEM-PRESENT\web\
+node_modules\next\dist\
+build\webpack\loaders\p
+ostcss-loader\src\index
+.js??ruleSet[1].rules[1
+4].oneOf[12].use[3]!C:\
+Users\Darwin\OneDrive\D
+esktop\KSSEM-PRESENT\we
+b\src\app\globals.css:1
+:7)
+    at C:\Users\Darwin\
+OneDrive\Desktop\KSSEM-
+PRESENT\web\node_module
+s\next\dist\compiled\we
+bpack\bundle5.js:28:922
+493
+    at Hook.eval [as 
+call] (eval at create (
+C:\Users\Darwin\OneDriv
+e\Desktop\KSSEM-PRESENT
+\web\node_modules\next\
+dist\compiled\webpack\b
+undle5.js:13:28636), 
+<anonymous>:7:1)
+    at 
+Hook.CALL_DELEGATE [as 
+_call] (C:\Users\Darwin
+\OneDrive\Desktop\KSSEM
+-PRESENT\web\node_modul
+es\next\dist\compiled\w
+ebpack\bundle5.js:13:25
+906)
+    at C:\Users\Darwin\
+OneDrive\Desktop\KSSEM-
+PRESENT\web\node_module
+s\next\dist\compiled\we
+bpack\bundle5.js:28:131
+198
+    at 
+tryRunOrWebpackError (C
+:\Users\Darwin\OneDrive
+\Desktop\KSSEM-PRESENT\
+web\node_modules\next\d
+ist\compiled\webpack\bu
+ndle5.js:28:312943)
+    at __webpack_requir
+e_module__ (C:\Users\Da
+rwin\OneDrive\Desktop\K
+SSEM-PRESENT\web\node_m
+odules\next\dist\compil
+ed\webpack\bundle5.js:2
+8:131165)
+    at __nested_webpack
+_require_153728__ (C:\U
+sers\Darwin\OneDrive\De
+sktop\KSSEM-PRESENT\web
+\node_modules\next\dist
+\compiled\webpack\bundl
+e5.js:28:130607)
+    at C:\Users\Darwin\
+OneDrive\Desktop\KSSEM-
+PRESENT\web\node_module
+s\next\dist\compiled\we
+bpack\bundle5.js:28:131
+454
+    at symbolIterator (
+C:\Users\Darwin\OneDriv
+e\Desktop\KSSEM-PRESENT
+\web\node_modules\next\
+dist\compiled\neo-async
+\async.js:1:14444)
+
+Generated code for C:\U
+sers\Darwin\OneDrive\De
+sktop\KSSEM-PRESENT\web
+\node_modules\next\dist
+\build\webpack\loaders\
+css-loader\src\index.js
+??ruleSet[1].rules[14].
+oneOf[12].use[2]!C:\Use
+rs\Darwin\OneDrive\Desk
+top\KSSEM-PRESENT\web\n
+ode_modules\next\dist\b
+uild\webpack\loaders\po
+stcss-loader\src\index.
+js??ruleSet[1].rules[14
+].oneOf[12].use[3]!C:\U
+sers\Darwin\OneDrive\De
+sktop\KSSEM-PRESENT\web
+\src\app\globals.css
+
+Import trace for 
+requested module:
+./src/app/globals.css
+
+
+> Build failed because 
+of webpack errors
