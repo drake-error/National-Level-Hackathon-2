@@ -12,7 +12,7 @@ export const HomePageContent = () => {
 
       {/* HEADER / NAVBAR */}
       <header className="fixed top-0 w-full p-6 flex justify-between items-center z-50 glass">
-        <div className="text-xl font-bold tracking-widest uppercase">BRAND LOGO</div>
+        <img src="/logo.png" alt="Brand Logo" className="h-10 w-auto object-contain" />
         <nav className="hidden md:flex gap-8 text-sm uppercase tracking-widest font-semibold text-white/80">
           <a href="#" className="hover:text-white transition-colors">About</a>
           <a href="#" className="hover:text-white transition-colors">Portfolio</a>

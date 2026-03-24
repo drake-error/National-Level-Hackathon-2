@@ -44,7 +44,7 @@ export const LogoTransition = ({ timeline }: { timeline: gsap.core.Timeline | nu
       <video 
         ref={logoRef}
         id="docking-logo" 
-        src="/videos/secondhero.mp4"
+        src="/videos/herosection.mp4"
         muted
         playsInline
         className="will-change-transform w-full h-full object-cover" 
